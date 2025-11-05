@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/search"
+        android:shortcutId="search"
+        android:shortcutShortLabel="@string/search">
+        <intent
+            android:action="com.neex.music.action.SEARCH"
+            android:targetClass="com.neex.music.MainActivity"
+            android:targetPackage="com.neex.music" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/music_note"
+        android:shortcutId="songs"
+        android:shortcutShortLabel="@string/songs">
+        <intent
+            android:action="com.neex.music.action.SONGS"
+            android:targetClass="com.neex.music.MainActivity"
+            android:targetPackage="com.viza.music" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/library_music"
+        android:shortcutId="library"
+        android:shortcutShortLabel="@string/filter_library">
+        <intent
+            android:action="com.neex.music.action.LIBRARY"
+            android:targetClass="com.neex.music.MainActivity"
+            android:targetPackage="com.neex.music" />
+    </shortcut>
+</shortcuts>
