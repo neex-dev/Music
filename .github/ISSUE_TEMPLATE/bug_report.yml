@@ -72,9 +72,9 @@ body:
   - type: input
     id: app-version
     attributes:
-      label: Metrolist version
+      label: NeeX Music version
       description: |
-        You can find your Metrolist version in **Settings**.
+        You can find your NeeX Music version in **Settings**.
       placeholder: |
         Example: "0.5.3"
     validations:

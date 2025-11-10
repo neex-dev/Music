@@ -23,7 +23,7 @@ object Updater {
         }
 
     fun getLatestDownloadUrl(): String {
-        val baseUrl = "https://github.com/neex-dev/NeeX-Music/releases/latest/download/"
+        val baseUrl = "https://github.com/neex-dev/Music/releases/latest/download/"
         val architecture = BuildConfig.ARCHITECTURE
         return if (architecture == "universal") {
             baseUrl + "Metrolist.apk"
