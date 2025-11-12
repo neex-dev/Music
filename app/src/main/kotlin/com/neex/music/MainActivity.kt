@@ -318,7 +318,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val checkForUpdates by rememberPreference(CheckForUpdatesKey, defaultValue = true)
 
-/*
+
             LaunchedEffect(checkForUpdates) {
                 if (checkForUpdates) {
                     withContext(Dispatchers.IO) {
@@ -355,7 +355,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
- */
+
 
             val enableDynamicTheme by rememberPreference(DynamicThemeKey, defaultValue = true)
             val darkTheme by rememberEnumPreference(DarkModeKey, defaultValue = DarkMode.AUTO)

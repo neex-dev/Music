@@ -66,7 +66,7 @@ android {
             keyPassword = "android"
         }
         create("release") {
-            storeFile = file("key_music.jks")
+            storeFile = file("keystore/release.keystore")
             storePassword = System.getenv("STORE_PASSWORD")
             keyAlias = System.getenv("KEY_ALIAS")
             keyPassword = System.getenv("KEY_PASSWORD")
